@@ -15,6 +15,17 @@
 		857523DC1D29F5430009EDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857523DA1D29F5430009EDF3 /* LaunchScreen.storyboard */; };
 		857523EC1D2D023C0009EDF3 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523EB1D2D023C0009EDF3 /* CustomTableViewCell.m */; };
 		857523EF1D2D02D50009EDF3 /* SecondDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523EE1D2D02D50009EDF3 /* SecondDemoViewController.m */; };
+		857523F21D2D45AF0009EDF3 /* FourthDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523F11D2D45AF0009EDF3 /* FourthDemoViewController.m */; };
+		857523F51D2D45D20009EDF3 /* FourthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523F41D2D45D20009EDF3 /* FourthTableViewCell.m */; };
+		857523F91D2DEC4A0009EDF3 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523F81D2DEC4A0009EDF3 /* LeftTableViewController.m */; };
+		857523FC1D2DF0810009EDF3 /* FiveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523FB1D2DF0810009EDF3 /* FiveMainViewController.m */; };
+		857523FF1D2DF0FD0009EDF3 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857523FE1D2DF0FD0009EDF3 /* RightTableViewController.m */; };
+		857524021D2DFF900009EDF3 /* readme5-1.md in Sources */ = {isa = PBXBuildFile; fileRef = 857524011D2DFF900009EDF3 /* readme5-1.md */; };
+		857524051D2E00590009EDF3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857524041D2E00590009EDF3 /* FirstViewController.m */; };
+		857524081D2E006E0009EDF3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857524071D2E006E0009EDF3 /* SecondViewController.m */; };
+		8575240B1D2E00860009EDF3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575240A1D2E00860009EDF3 /* ThirdViewController.m */; };
+		8575240E1D2E01E80009EDF3 /* Main5_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */; };
+		857524101D2E4D790009EDF3 /* readme5.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 8575240F1D2E4D790009EDF3 /* readme5.0.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,26 @@
 		857523EB1D2D023C0009EDF3 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		857523ED1D2D02D50009EDF3 /* SecondDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDemoViewController.h; sourceTree = "<group>"; };
 		857523EE1D2D02D50009EDF3 /* SecondDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDemoViewController.m; sourceTree = "<group>"; };
+		857523F01D2D45AF0009EDF3 /* FourthDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthDemoViewController.h; sourceTree = "<group>"; };
+		857523F11D2D45AF0009EDF3 /* FourthDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthDemoViewController.m; sourceTree = "<group>"; };
+		857523F31D2D45D20009EDF3 /* FourthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTableViewCell.h; sourceTree = "<group>"; };
+		857523F41D2D45D20009EDF3 /* FourthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTableViewCell.m; sourceTree = "<group>"; };
+		857523F71D2DEC4A0009EDF3 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		857523F81D2DEC4A0009EDF3 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		857523FA1D2DF0810009EDF3 /* FiveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveMainViewController.h; sourceTree = "<group>"; };
+		857523FB1D2DF0810009EDF3 /* FiveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveMainViewController.m; sourceTree = "<group>"; };
+		857523FD1D2DF0FD0009EDF3 /* RightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		857523FE1D2DF0FD0009EDF3 /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
+		857524011D2DFF900009EDF3 /* readme5-1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "readme5-1.md"; sourceTree = "<group>"; };
+		857524031D2E00590009EDF3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		857524041D2E00590009EDF3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		857524061D2E006E0009EDF3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		857524071D2E006E0009EDF3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		857524091D2E00860009EDF3 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8575240A1D2E00860009EDF3 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8575240C1D2E01E80009EDF3 /* Main5_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main5_1ViewController.h; sourceTree = "<group>"; };
+		8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main5_1ViewController.m; sourceTree = "<group>"; };
+		8575240F1D2E4D790009EDF3 /* readme5.0.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme5.0.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +95,8 @@
 		857523CB1D29F5420009EDF3 /* GuideTest */ = {
 			isa = PBXGroup;
 			children = (
+				857524001D2DFF640009EDF3 /* 5-1 */,
+				857523F61D2DEC020009EDF3 /* FiveDemo */,
 				857523E91D2D02050009EDF3 /* cell */,
 				857523CF1D29F5420009EDF3 /* AppDelegate.h */,
 				857523D01D29F5420009EDF3 /* AppDelegate.m */,
@@ -76,6 +109,8 @@
 				857523CC1D29F5420009EDF3 /* Supporting Files */,
 				857523ED1D2D02D50009EDF3 /* SecondDemoViewController.h */,
 				857523EE1D2D02D50009EDF3 /* SecondDemoViewController.m */,
+				857523F01D2D45AF0009EDF3 /* FourthDemoViewController.h */,
+				857523F11D2D45AF0009EDF3 /* FourthDemoViewController.m */,
 			);
 			path = GuideTest;
 			sourceTree = "<group>";
@@ -93,8 +128,40 @@
 			children = (
 				857523EA1D2D023C0009EDF3 /* CustomTableViewCell.h */,
 				857523EB1D2D023C0009EDF3 /* CustomTableViewCell.m */,
+				857523F31D2D45D20009EDF3 /* FourthTableViewCell.h */,
+				857523F41D2D45D20009EDF3 /* FourthTableViewCell.m */,
 			);
 			name = cell;
+			sourceTree = "<group>";
+		};
+		857523F61D2DEC020009EDF3 /* FiveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				857523F71D2DEC4A0009EDF3 /* LeftTableViewController.h */,
+				857523F81D2DEC4A0009EDF3 /* LeftTableViewController.m */,
+				857523FA1D2DF0810009EDF3 /* FiveMainViewController.h */,
+				857523FB1D2DF0810009EDF3 /* FiveMainViewController.m */,
+				857523FD1D2DF0FD0009EDF3 /* RightTableViewController.h */,
+				857523FE1D2DF0FD0009EDF3 /* RightTableViewController.m */,
+				8575240F1D2E4D790009EDF3 /* readme5.0.md */,
+			);
+			name = FiveDemo;
+			sourceTree = "<group>";
+		};
+		857524001D2DFF640009EDF3 /* 5-1 */ = {
+			isa = PBXGroup;
+			children = (
+				857524011D2DFF900009EDF3 /* readme5-1.md */,
+				857524031D2E00590009EDF3 /* FirstViewController.h */,
+				857524041D2E00590009EDF3 /* FirstViewController.m */,
+				857524061D2E006E0009EDF3 /* SecondViewController.h */,
+				857524071D2E006E0009EDF3 /* SecondViewController.m */,
+				857524091D2E00860009EDF3 /* ThirdViewController.h */,
+				8575240A1D2E00860009EDF3 /* ThirdViewController.m */,
+				8575240C1D2E01E80009EDF3 /* Main5_1ViewController.h */,
+				8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */,
+			);
+			name = "5-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +234,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857524021D2DFF900009EDF3 /* readme5-1.md in Sources */,
+				857524081D2E006E0009EDF3 /* SecondViewController.m in Sources */,
 				857523EF1D2D02D50009EDF3 /* SecondDemoViewController.m in Sources */,
 				857523D41D29F5420009EDF3 /* ViewController.m in Sources */,
 				857523D11D29F5420009EDF3 /* AppDelegate.m in Sources */,
+				857523F51D2D45D20009EDF3 /* FourthTableViewCell.m in Sources */,
+				8575240B1D2E00860009EDF3 /* ThirdViewController.m in Sources */,
+				857523FF1D2DF0FD0009EDF3 /* RightTableViewController.m in Sources */,
+				8575240E1D2E01E80009EDF3 /* Main5_1ViewController.m in Sources */,
 				857523EC1D2D023C0009EDF3 /* CustomTableViewCell.m in Sources */,
+				857524051D2E00590009EDF3 /* FirstViewController.m in Sources */,
 				857523CE1D29F5420009EDF3 /* main.m in Sources */,
+				857524101D2E4D790009EDF3 /* readme5.0.md in Sources */,
+				857523FC1D2DF0810009EDF3 /* FiveMainViewController.m in Sources */,
+				857523F91D2DEC4A0009EDF3 /* LeftTableViewController.m in Sources */,
+				857523F21D2D45AF0009EDF3 /* FourthDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

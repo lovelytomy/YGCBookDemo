@@ -1,7 +1,7 @@
 //
 //  SecondDemoViewController.h
 //  GuideTest
-//
+//  关于Content Hugging Priority和Content Compression Resistance
 //  Created by tianqi on 16/7/6.
 //  Copyright © 2016年 com.wiscess. All rights reserved.
 //

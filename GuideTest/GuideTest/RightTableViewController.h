@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RightTableViewController : UITableViewController
-
+@property (nonatomic, copy) NSArray *titleArray;
 @end

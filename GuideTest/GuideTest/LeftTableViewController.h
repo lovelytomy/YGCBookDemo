@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^CellDidClick)(NSIndexPath *selectIndex,NSString *categoryName);
+
 @interface LeftTableViewController : UITableViewController
+
+@property(nonatomic, copy) CellDidClick callbackBlock;
 
 @end
