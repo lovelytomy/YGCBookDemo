@@ -26,6 +26,7 @@
 		8575240B1D2E00860009EDF3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575240A1D2E00860009EDF3 /* ThirdViewController.m */; };
 		8575240E1D2E01E80009EDF3 /* Main5_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */; };
 		857524101D2E4D790009EDF3 /* readme5.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 8575240F1D2E4D790009EDF3 /* readme5.0.md */; };
+		857524661D2F3C9A0009EDF3 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 857524651D2F3C9A0009EDF3 /* wuyanzu.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		8575240C1D2E01E80009EDF3 /* Main5_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main5_1ViewController.h; sourceTree = "<group>"; };
 		8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main5_1ViewController.m; sourceTree = "<group>"; };
 		8575240F1D2E4D790009EDF3 /* readme5.0.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme5.0.md; sourceTree = "<group>"; };
+		857524651D2F3C9A0009EDF3 /* wuyanzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,13 @@
 		857523CB1D29F5420009EDF3 /* GuideTest */ = {
 			isa = PBXGroup;
 			children = (
+				857524641D2F399B0009EDF3 /* 6 */,
+				857524631D2F33840009EDF3 /* 4 */,
+				857524621D2F33800009EDF3 /* 3 */,
+				857524611D2F337A0009EDF3 /* 2 */,
+				857524601D2F33720009EDF3 /* 1 */,
 				857524001D2DFF640009EDF3 /* 5-1 */,
-				857523F61D2DEC020009EDF3 /* FiveDemo */,
-				857523E91D2D02050009EDF3 /* cell */,
+				857523F61D2DEC020009EDF3 /* 5 */,
 				857523CF1D29F5420009EDF3 /* AppDelegate.h */,
 				857523D01D29F5420009EDF3 /* AppDelegate.m */,
 				857523D21D29F5420009EDF3 /* ViewController.h */,
@@ -107,10 +113,6 @@
 				857523DA1D29F5430009EDF3 /* LaunchScreen.storyboard */,
 				857523DD1D29F5430009EDF3 /* Info.plist */,
 				857523CC1D29F5420009EDF3 /* Supporting Files */,
-				857523ED1D2D02D50009EDF3 /* SecondDemoViewController.h */,
-				857523EE1D2D02D50009EDF3 /* SecondDemoViewController.m */,
-				857523F01D2D45AF0009EDF3 /* FourthDemoViewController.h */,
-				857523F11D2D45AF0009EDF3 /* FourthDemoViewController.m */,
 			);
 			path = GuideTest;
 			sourceTree = "<group>";
@@ -126,15 +128,13 @@
 		857523E91D2D02050009EDF3 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				857523EA1D2D023C0009EDF3 /* CustomTableViewCell.h */,
-				857523EB1D2D023C0009EDF3 /* CustomTableViewCell.m */,
 				857523F31D2D45D20009EDF3 /* FourthTableViewCell.h */,
 				857523F41D2D45D20009EDF3 /* FourthTableViewCell.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
 		};
-		857523F61D2DEC020009EDF3 /* FiveDemo */ = {
+		857523F61D2DEC020009EDF3 /* 5 */ = {
 			isa = PBXGroup;
 			children = (
 				857523F71D2DEC4A0009EDF3 /* LeftTableViewController.h */,
@@ -145,7 +145,7 @@
 				857523FE1D2DF0FD0009EDF3 /* RightTableViewController.m */,
 				8575240F1D2E4D790009EDF3 /* readme5.0.md */,
 			);
-			name = FiveDemo;
+			name = 5;
 			sourceTree = "<group>";
 		};
 		857524001D2DFF640009EDF3 /* 5-1 */ = {
@@ -162,6 +162,49 @@
 				8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */,
 			);
 			name = "5-1";
+			sourceTree = "<group>";
+		};
+		857524601D2F33720009EDF3 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		857524611D2F337A0009EDF3 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				857523EA1D2D023C0009EDF3 /* CustomTableViewCell.h */,
+				857523EB1D2D023C0009EDF3 /* CustomTableViewCell.m */,
+				857523ED1D2D02D50009EDF3 /* SecondDemoViewController.h */,
+				857523EE1D2D02D50009EDF3 /* SecondDemoViewController.m */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		857524621D2F33800009EDF3 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
+		857524631D2F33840009EDF3 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				857523E91D2D02050009EDF3 /* cell */,
+				857523F01D2D45AF0009EDF3 /* FourthDemoViewController.h */,
+				857523F11D2D45AF0009EDF3 /* FourthDemoViewController.m */,
+			);
+			name = 4;
+			sourceTree = "<group>";
+		};
+		857524641D2F399B0009EDF3 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				857524651D2F3C9A0009EDF3 /* wuyanzu.jpg */,
+			);
+			name = 6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				857523DC1D29F5430009EDF3 /* LaunchScreen.storyboard in Resources */,
+				857524661D2F3C9A0009EDF3 /* wuyanzu.jpg in Resources */,
 				857523D91D29F5430009EDF3 /* Assets.xcassets in Resources */,
 				857523D71D29F5430009EDF3 /* Main.storyboard in Resources */,
 			);

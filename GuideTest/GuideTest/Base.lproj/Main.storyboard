@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o9j-Up-0jn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cfw-Ax-MDI">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -76,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xuV-JW-Qva" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="-360"/>
+            <point key="canvasLocation" x="292" y="-362"/>
         </scene>
         <!--Five Main View Controller-->
         <scene sceneID="dGs-vX-kNX">
@@ -255,7 +255,108 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="317" y="315"/>
+            <point key="canvasLocation" x="292" y="311"/>
+        </scene>
+        <!--6 demo-->
+        <scene sceneID="Xou-Yq-01n">
+            <objects>
+                <viewController id="cfw-Ax-MDI" userLabel="6 demo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1nf-YP-zW8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gtt-Vp-h8M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ghq-zn-iuj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0K-2E-Ah7" userLabel="GrayView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Daniel Wu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIB-SF-jPE">
+                                        <rect key="frame" x="235" y="25" width="131" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtS-Eb-uLS">
+                                        <rect key="frame" x="2" y="72" width="596" height="61"/>
+                                        <string key="text">Wu was born in Berkeley,California,and raised in Orinda,California.His parents,Diana, a college professor, and George Wu, aretired engineer, are natives of Shanghai,China</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="DIB-SF-jPE" firstAttribute="top" secondItem="h0K-2E-Ah7" secondAttribute="top" constant="25" id="ITj-Rt-DzE"/>
+                                    <constraint firstItem="rtS-Eb-uLS" firstAttribute="top" secondItem="DIB-SF-jPE" secondAttribute="bottom" constant="26" id="Ybx-PB-9Wk"/>
+                                    <constraint firstItem="rtS-Eb-uLS" firstAttribute="leading" secondItem="h0K-2E-Ah7" secondAttribute="leading" constant="2" id="l58-QN-d6d"/>
+                                    <constraint firstItem="DIB-SF-jPE" firstAttribute="centerX" secondItem="h0K-2E-Ah7" secondAttribute="centerX" id="q6Y-Ep-q4I"/>
+                                    <constraint firstAttribute="trailing" secondItem="rtS-Eb-uLS" secondAttribute="trailing" constant="2" id="qAd-5e-gxI"/>
+                                </constraints>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="236" height="400"/>
+                                </variation>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wuyanzu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bbl-YH-Dfh">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="244" y="200" width="371" height="280"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h0K-2E-Ah7" firstAttribute="top" secondItem="Ghq-zn-iuj" secondAttribute="top" id="1ZP-7h-36B"/>
+                            <constraint firstItem="h0K-2E-Ah7" firstAttribute="leading" secondItem="Ghq-zn-iuj" secondAttribute="leading" id="8lr-Ut-WiB"/>
+                            <constraint firstItem="Bbl-YH-Dfh" firstAttribute="top" secondItem="h0K-2E-Ah7" secondAttribute="bottom" id="9Yh-VW-nba"/>
+                            <constraint firstItem="h0K-2E-Ah7" firstAttribute="width" secondItem="Ghq-zn-iuj" secondAttribute="width" multiplier="1:2" id="FRZ-do-XyU"/>
+                            <constraint firstAttribute="trailing" secondItem="h0K-2E-Ah7" secondAttribute="trailing" id="I5O-Kn-Fez"/>
+                            <constraint firstItem="Bbl-YH-Dfh" firstAttribute="leading" secondItem="h0K-2E-Ah7" secondAttribute="trailing" id="JeM-Mu-8mh"/>
+                            <constraint firstItem="Bbl-YH-Dfh" firstAttribute="top" secondItem="1nf-YP-zW8" secondAttribute="bottom" id="Quf-mc-0is"/>
+                            <constraint firstItem="Bbl-YH-Dfh" firstAttribute="top" secondItem="h0K-2E-Ah7" secondAttribute="bottom" id="UjY-ze-Ojq"/>
+                            <constraint firstItem="Gtt-Vp-h8M" firstAttribute="top" secondItem="h0K-2E-Ah7" secondAttribute="bottom" id="X8t-gf-4xA"/>
+                            <constraint firstAttribute="trailing" secondItem="Bbl-YH-Dfh" secondAttribute="trailing" id="XFL-kr-yax"/>
+                            <constraint firstAttribute="bottom" secondItem="Bbl-YH-Dfh" secondAttribute="bottom" id="ZxC-dV-Rk3"/>
+                            <constraint firstItem="h0K-2E-Ah7" firstAttribute="bottom" secondItem="Gtt-Vp-h8M" secondAttribute="top" id="Zzh-fM-ovJ"/>
+                            <constraint firstItem="h0K-2E-Ah7" firstAttribute="height" secondItem="Ghq-zn-iuj" secondAttribute="height" multiplier="1:2" id="h9J-fB-oaZ"/>
+                            <constraint firstItem="Gtt-Vp-h8M" firstAttribute="top" secondItem="h0K-2E-Ah7" secondAttribute="bottom" id="n1O-JH-RhI"/>
+                            <constraint firstItem="Gtt-Vp-h8M" firstAttribute="top" secondItem="Bbl-YH-Dfh" secondAttribute="bottom" id="wY2-wH-Q5a"/>
+                            <constraint firstItem="Bbl-YH-Dfh" firstAttribute="leading" secondItem="Ghq-zn-iuj" secondAttribute="leading" id="zSa-BY-cdp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FRZ-do-XyU"/>
+                                <exclude reference="Zzh-fM-ovJ"/>
+                                <exclude reference="9Yh-VW-nba"/>
+                                <exclude reference="JeM-Mu-8mh"/>
+                                <exclude reference="Quf-mc-0is"/>
+                                <exclude reference="ZxC-dV-Rk3"/>
+                                <exclude reference="X8t-gf-4xA"/>
+                                <exclude reference="n1O-JH-RhI"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="FRZ-do-XyU"/>
+                                <exclude reference="I5O-Kn-Fez"/>
+                                <exclude reference="Zzh-fM-ovJ"/>
+                                <exclude reference="h9J-fB-oaZ"/>
+                                <exclude reference="9Yh-VW-nba"/>
+                                <include reference="JeM-Mu-8mh"/>
+                                <include reference="Quf-mc-0is"/>
+                                <exclude reference="UjY-ze-Ojq"/>
+                                <include reference="ZxC-dV-Rk3"/>
+                                <exclude reference="zSa-BY-cdp"/>
+                                <exclude reference="X8t-gf-4xA"/>
+                                <include reference="n1O-JH-RhI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wy2-dy-68S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="-3183"/>
         </scene>
         <!--Main51 View Controller-->
         <scene sceneID="0Ft-yt-Yot">
@@ -273,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ESc-zH-rT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="-2585"/>
+            <point key="canvasLocation" x="284" y="-2413"/>
         </scene>
         <!--Left Table View Controller-->
         <scene sceneID="22x-e5-Qob">
@@ -334,4 +435,7 @@
             <point key="canvasLocation" x="928" y="-1238"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="wuyanzu.jpg" width="400" height="280"/>
+    </resources>
 </document>
