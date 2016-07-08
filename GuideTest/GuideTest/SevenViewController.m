@@ -24,14 +24,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)addImage:(id)sender {
+    UIImageView *imageView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"wuyanzuvatar.jpg"]];
+    imageView.contentMode=UIViewContentModeScaleAspectFit;
+    [self.ImageStackView addArrangedSubview:imageView];
+    [UIView animateWithDuration:0.25 animations:^{
+        [self.ImageStackView layoutIfNeeded];
+    }];
 }
-*/
 
+- (IBAction)deleteImage:(id)sender {
+    UIImageView *imageView=[self.ImageStackView.arrangedSubviews lastObject];
+    if (imageView) {
+        [self.ImageStackView removeArrangedSubview:imageView];
+        [imageView removeFromSuperview];
+        [UIView animateWithDuration:0.25 animations:^{
+            [self.ImageStackView layoutIfNeeded];
+        }];
+    }
+}
 @end

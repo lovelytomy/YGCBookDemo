@@ -27,6 +27,8 @@
 		8575240E1D2E01E80009EDF3 /* Main5_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */; };
 		857524101D2E4D790009EDF3 /* readme5.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 8575240F1D2E4D790009EDF3 /* readme5.0.md */; };
 		857524661D2F3C9A0009EDF3 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 857524651D2F3C9A0009EDF3 /* wuyanzu.jpg */; };
+		8575246A1D2F62CC0009EDF3 /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857524691D2F62CC0009EDF3 /* SevenViewController.m */; };
+		8575246C1D2F6B1F0009EDF3 /* wuyanzuvatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8575246B1D2F6B1F0009EDF3 /* wuyanzuvatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,9 @@
 		8575240D1D2E01E80009EDF3 /* Main5_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main5_1ViewController.m; sourceTree = "<group>"; };
 		8575240F1D2E4D790009EDF3 /* readme5.0.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme5.0.md; sourceTree = "<group>"; };
 		857524651D2F3C9A0009EDF3 /* wuyanzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzu.jpg; sourceTree = "<group>"; };
+		857524681D2F62CC0009EDF3 /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		857524691D2F62CC0009EDF3 /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		8575246B1D2F6B1F0009EDF3 /* wuyanzuvatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzuvatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 		857523CB1D29F5420009EDF3 /* GuideTest */ = {
 			isa = PBXGroup;
 			children = (
+				857524671D2F60CB0009EDF3 /* 7 */,
 				857524641D2F399B0009EDF3 /* 6 */,
 				857524631D2F33840009EDF3 /* 4 */,
 				857524621D2F33800009EDF3 /* 3 */,
@@ -207,6 +213,16 @@
 			name = 6;
 			sourceTree = "<group>";
 		};
+		857524671D2F60CB0009EDF3 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				8575246B1D2F6B1F0009EDF3 /* wuyanzuvatar.jpg */,
+				857524681D2F62CC0009EDF3 /* SevenViewController.h */,
+				857524691D2F62CC0009EDF3 /* SevenViewController.m */,
+			);
+			name = 7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +283,7 @@
 				857523DC1D29F5430009EDF3 /* LaunchScreen.storyboard in Resources */,
 				857524661D2F3C9A0009EDF3 /* wuyanzu.jpg in Resources */,
 				857523D91D29F5430009EDF3 /* Assets.xcassets in Resources */,
+				8575246C1D2F6B1F0009EDF3 /* wuyanzuvatar.jpg in Resources */,
 				857523D71D29F5430009EDF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +303,7 @@
 				857523F51D2D45D20009EDF3 /* FourthTableViewCell.m in Sources */,
 				8575240B1D2E00860009EDF3 /* ThirdViewController.m in Sources */,
 				857523FF1D2DF0FD0009EDF3 /* RightTableViewController.m in Sources */,
+				8575246A1D2F62CC0009EDF3 /* SevenViewController.m in Sources */,
 				8575240E1D2E01E80009EDF3 /* Main5_1ViewController.m in Sources */,
 				857523EC1D2D023C0009EDF3 /* CustomTableViewCell.m in Sources */,
 				857524051D2E00590009EDF3 /* FirstViewController.m in Sources */,
